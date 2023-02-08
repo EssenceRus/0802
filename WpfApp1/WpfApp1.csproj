@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Icons\56x56\icons8-copy-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-cut-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-exit-sign-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-help-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-opened-folder-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-paste-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-save-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-type-52.png" />
+    <None Remove="Images\Icons\56x56\icons8-undo-52.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Icons\56x56\icons8-copy-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-cut-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-exit-sign-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-help-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-opened-folder-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-paste-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-save-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-type-52.png" />
+    <Resource Include="Images\Icons\56x56\icons8-undo-52.png" />
+  </ItemGroup>
+
+</Project>
